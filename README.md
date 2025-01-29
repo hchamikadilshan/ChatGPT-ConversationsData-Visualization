@@ -1,6 +1,3 @@
-Sure! Here’s the markdown code for the README:
-
-```markdown
 # ChatGPT Conversations Data Visualization
 
 This project visualizes data from my ChatGPT conversations and categorizes the conversation titles into different topics using **Hugging Face's Zero-Shot Classification** model. Inspired by **Chip Huyen's** repository, which used ChatGPT conversations to create a heatmap visualizing new conversations started, I decided to track the **number of chats** I’ve had with ChatGPT to visualize my activeness. Additionally, I extracted the conversation titles and categorized them, giving insight into the diversity of topics discussed.
@@ -52,6 +49,6 @@ This project is licensed under the MIT License.
 
 ## Contact:
 If you have any questions or would like to collaborate on similar projects, feel free to reach out!
-```
+
 
 This markdown code should render correctly in your GitHub repository's README file.
