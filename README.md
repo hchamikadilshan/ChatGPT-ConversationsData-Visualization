@@ -58,9 +58,8 @@ This will generate insights and visualizations based on your conversations.
 ![Bar Chart of number of conversations under each category](images/image_5.png)
 
 ## Future Improvements:
-- Expand the conversation categories to cover more topics.
+- Use LLMs to classify the titiles
 - Create more detailed visualizations, such as word clouds or topic clustering.
-- Automate data extraction from ChatGPT logs for better integration.
 
 ## Contributions:
 Feel free to fork the repository, submit pull requests, and contribute. I’d love to see how others are using and improving this project!
