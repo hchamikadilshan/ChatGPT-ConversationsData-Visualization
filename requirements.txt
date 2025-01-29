@@ -1,0 +1,8 @@
+matplotlib
+matplotlib-inline==0.1.6
+numpy
+numpydoc
+pandas==2.0.1
+pytz==2022.7.1
+seaborn==0.13.2
+transformers==4.48.1

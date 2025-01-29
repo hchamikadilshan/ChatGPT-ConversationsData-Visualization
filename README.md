@@ -15,20 +15,37 @@ This project visualizes data from my ChatGPT conversations and categorizes the c
 - **Jupyter Notebooks** (optional): For interactive analysis and visualizations.
 
 ## Getting Started:
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/hchamikadilshan/ChatGPT-ConversationsData-Visualization.git
+1. Export your ChatGPT conversation data as `conversations.json`.
+2. Place the `conversations.json` file inside the `data/` folder in the repository.
+
+   **File structure example:**
+   ```
+   ChatGPT-ConversationsData-Visualization/
+   ├── data/
+   │   ├── conversations.json  <- Your exported ChatGPT conversations file
+   ├── notebooks/
+   │   ├── 1 - Creating Heat maps.ipynb  <- Jupyter notebook for analysis
+   ├── images/
+   ├── README.md
+   ├── requirements.txt
    ```
 
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 🔹 **Step 2: Install Dependencies**  
+Run the following command to install the required dependencies:  
+```bash
+pip install -r requirements.txt
+```
 
-3. Run the project:
-   - You can use the provided code to extract your ChatGPT conversation data (ensure the data is in the required format).
-   - Visualize the heatmap of your ChatGPT activity over time.
-   - Categorize your conversation titles using the Hugging Face Zero-Shot Classification model and generate insightful visualizations.
+### 🔹 **Step 3: Run the Notebook**  
+Open the Jupyter notebook inside the `notebooks/` folder and run the analysis:
+
+```bash
+jupyter notebook "notebooks/1 - Creating Heat maps.ipynb"
+```
+
+This will generate insights and visualizations based on your conversations.
+
+
 
 ## Example Output:
 1. **Heatmap of ChatGPT Activity**: A heatmap of daily conversation activity, broken down by year.
