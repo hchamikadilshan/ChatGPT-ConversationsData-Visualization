@@ -32,9 +32,13 @@ This project visualizes data from my ChatGPT conversations and categorizes the c
 
 ## Example Output:
 1. **Heatmap of ChatGPT Activity**: A heatmap of daily conversation activity, broken down by year.
-![Alt text](./images/your-image.png)
+![Heatmap of ChatGPT Activity 2022](../images/image_1.png)
+![Heatmap of ChatGPT Activity 2023](../images/image_2.png)
+![Heatmap of ChatGPT Activity 2024](../images/image_3.png)
+![Heatmap of ChatGPT Activity 2025](../images/image_4.png)
 
 2. **Categorization of Conversations**: A bar chart showing the number of conversations under each category.
+![Bar Chart of number of conversations under each category](../images/image_5.png)
 
 ## Future Improvements:
 - Expand the conversation categories to cover more topics.
@@ -49,6 +53,3 @@ This project is licensed under the MIT License.
 
 ## Contact:
 If you have any questions or would like to collaborate on similar projects, feel free to reach out!
-
-
-This markdown code should render correctly in your GitHub repository's README file.
